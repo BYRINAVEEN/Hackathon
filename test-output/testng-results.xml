@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-10T14:57:53 IST" name="Suite" finished-at="2024-04-10T14:59:30 IST" duration-ms="97207">
+    <groups>
+      <group name="regression">
+        <method signature="TC1_CourseraSearchWebDev.Applyfilters()[pri:1, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" name="Applyfilters" class="testCases.TC1_CourseraSearchWebDev"/>
+        <method signature="TC3_enterprises.submitForm()[pri:1, instance:testCases.TC3_enterprises@7fd50002]" name="submitForm" class="testCases.TC3_enterprises"/>
+        <method signature="TC1_CourseraSearchWebDev.selectFirstCourse()[pri:2, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" name="selectFirstCourse" class="testCases.TC1_CourseraSearchWebDev"/>
+        <method signature="TC2_Languagelearn.languagescourses()[pri:2, instance:testCases.TC2_Languagelearn@3f4faf53]" name="languagescourses" class="testCases.TC2_Languagelearn"/>
+        <method signature="TC1_CourseraSearchWebDev.getFirstCourseData()[pri:3, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" name="getFirstCourseData" class="testCases.TC1_CourseraSearchWebDev"/>
+        <method signature="TC1_CourseraSearchWebDev.getSecondCourseData()[pri:5, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" name="getSecondCourseData" class="testCases.TC1_CourseraSearchWebDev"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC1_CourseraSearchWebDev.searchForCourses()[pri:0, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" name="searchForCourses" class="testCases.TC1_CourseraSearchWebDev"/>
+        <method signature="TC3_enterprises.forEnterprise()[pri:0, instance:testCases.TC3_enterprises@7fd50002]" name="forEnterprise" class="testCases.TC3_enterprises"/>
+        <method signature="TC1_CourseraSearchWebDev.Applyfilters()[pri:1, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" name="Applyfilters" class="testCases.TC1_CourseraSearchWebDev"/>
+        <method signature="TC2_Languagelearn.searchbox()[pri:1, instance:testCases.TC2_Languagelearn@3f4faf53]" name="searchbox" class="testCases.TC2_Languagelearn"/>
+        <method signature="TC3_enterprises.submitForm()[pri:1, instance:testCases.TC3_enterprises@7fd50002]" name="submitForm" class="testCases.TC3_enterprises"/>
+        <method signature="TC1_CourseraSearchWebDev.selectFirstCourse()[pri:2, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" name="selectFirstCourse" class="testCases.TC1_CourseraSearchWebDev"/>
+        <method signature="TC2_Languagelearn.languagescourses()[pri:2, instance:testCases.TC2_Languagelearn@3f4faf53]" name="languagescourses" class="testCases.TC2_Languagelearn"/>
+        <method signature="TC1_CourseraSearchWebDev.getFirstCourseData()[pri:3, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" name="getFirstCourseData" class="testCases.TC1_CourseraSearchWebDev"/>
+        <method signature="TC1_CourseraSearchWebDev.selectSecondCourse()[pri:4, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" name="selectSecondCourse" class="testCases.TC1_CourseraSearchWebDev"/>
+        <method signature="TC1_CourseraSearchWebDev.getSecondCourseData()[pri:5, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" name="getSecondCourseData" class="testCases.TC1_CourseraSearchWebDev"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-04-10T14:57:53 IST" name="Test" finished-at="2024-04-10T14:59:30 IST" duration-ms="97207">
+      <class name="testCases.TC3_enterprises">
+        <test-method is-config="true" signature="InitializeBrowser(java.lang.String)[pri:0, instance:testCases.TC3_enterprises@7fd50002]" started-at="2024-04-10T14:58:57 IST" name="InitializeBrowser" finished-at="2024-04-10T14:59:06 IST" duration-ms="8687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeBrowser -->
+        <test-method signature="forEnterprise()[pri:0, instance:testCases.TC3_enterprises@7fd50002]" started-at="2024-04-10T14:59:06 IST" name="forEnterprise" finished-at="2024-04-10T14:59:22 IST" duration-ms="16217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forEnterprise -->
+        <test-method signature="submitForm()[pri:1, instance:testCases.TC3_enterprises@7fd50002]" started-at="2024-04-10T14:59:23 IST" name="submitForm" finished-at="2024-04-10T14:59:27 IST" duration-ms="4172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitForm -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC3_enterprises@7fd50002]" started-at="2024-04-10T14:59:27 IST" name="closeBrowser" finished-at="2024-04-10T14:59:30 IST" duration-ms="2818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC3_enterprises -->
+      <class name="testCases.TC2_Languagelearn">
+        <test-method is-config="true" signature="InitializeBrowser(java.lang.String)[pri:0, instance:testCases.TC2_Languagelearn@3f4faf53]" started-at="2024-04-10T14:58:36 IST" name="InitializeBrowser" finished-at="2024-04-10T14:58:42 IST" duration-ms="6189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeBrowser -->
+        <test-method signature="searchbox()[pri:1, instance:testCases.TC2_Languagelearn@3f4faf53]" started-at="2024-04-10T14:58:42 IST" name="searchbox" finished-at="2024-04-10T14:58:48 IST" duration-ms="6317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchbox -->
+        <test-method signature="languagescourses()[pri:2, instance:testCases.TC2_Languagelearn@3f4faf53]" started-at="2024-04-10T14:58:48 IST" name="languagescourses" finished-at="2024-04-10T14:58:55 IST" duration-ms="6283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languagescourses -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC2_Languagelearn@3f4faf53]" started-at="2024-04-10T14:58:55 IST" name="closeBrowser" finished-at="2024-04-10T14:58:57 IST" duration-ms="2352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC2_Languagelearn -->
+      <class name="testCases.TC1_CourseraSearchWebDev">
+        <test-method is-config="true" signature="InitializeBrowser(java.lang.String)[pri:0, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" started-at="2024-04-10T14:57:53 IST" name="InitializeBrowser" finished-at="2024-04-10T14:58:07 IST" duration-ms="13634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeBrowser -->
+        <test-method signature="searchForCourses()[pri:0, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" started-at="2024-04-10T14:58:07 IST" name="searchForCourses" finished-at="2024-04-10T14:58:13 IST" duration-ms="6825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForCourses -->
+        <test-method signature="Applyfilters()[pri:1, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" started-at="2024-04-10T14:58:14 IST" name="Applyfilters" finished-at="2024-04-10T14:58:17 IST" duration-ms="3621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Applyfilters -->
+        <test-method signature="selectFirstCourse()[pri:2, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" started-at="2024-04-10T14:58:17 IST" name="selectFirstCourse" finished-at="2024-04-10T14:58:19 IST" duration-ms="1262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFirstCourse -->
+        <test-method signature="getFirstCourseData()[pri:3, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" started-at="2024-04-10T14:58:19 IST" name="getFirstCourseData" finished-at="2024-04-10T14:58:26 IST" duration-ms="7192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirstCourseData -->
+        <test-method signature="selectSecondCourse()[pri:4, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" started-at="2024-04-10T14:58:26 IST" name="selectSecondCourse" finished-at="2024-04-10T14:58:27 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSecondCourse -->
+        <test-method signature="getSecondCourseData()[pri:5, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" started-at="2024-04-10T14:58:27 IST" name="getSecondCourseData" finished-at="2024-04-10T14:58:33 IST" duration-ms="5489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSecondCourseData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC1_CourseraSearchWebDev@1972e513]" started-at="2024-04-10T14:58:33 IST" name="closeBrowser" finished-at="2024-04-10T14:58:36 IST" duration-ms="2942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC1_CourseraSearchWebDev -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

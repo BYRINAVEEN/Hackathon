@@ -1,0 +1,5 @@
+14:58:48.600 [main] INFO  testCases.TC2_Languagelearn - ------ shows the language learn courses--------
+14:58:48.803 [main] INFO  testCases.TC2_Languagelearn - ------For each Level it will count the number of courses available for different languages --------
+14:58:55.086 [main] INFO  testCases.TC2_Languagelearn - ------data taken, prints on console and also written on excel file------
+14:59:22.612 [main] INFO  testCases.TC3_enterprises - ----- forEnterprises method runs succesful------
+14:59:27.295 [main] INFO  testCases.TC3_enterprises - ------error message is shown------
